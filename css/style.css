@@ -4,11 +4,15 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: #F6F8F9;
+}
 header{
   margin-left: 400px;
   margin-top: 50px;
-  border-top: solid 2px grey;
   margin-right: 400px;
+  border-top: solid 2px grey;
+  background-color: white;
 }
 
 #logo{
@@ -22,6 +26,60 @@ header{
 }
 
 main{
-  background-color: lightgray;
-  margin: 0, 600px;
+  background-color: white;
+  margin: 50px 600px 50px 600px ;
+}
+
+button{
+  font-size: 15px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border:solid 1px;
+  padding: 10px;
+}
+
+#but1{
+  background-color: #47ADF1;
+  color: white;
+}
+
+#but2{
+  background-color: white;
+  color: #C7CDD1;
+  border-color: #C7CDD1;
+}
+
+.container-but{
+  padding: 20px;
+  margin-left: 60px;
+}
+
+.container-task{
+  padding: 20px;
+  margin-left: 60px;  
+}
+
+h2::before{
+  content: '\02023';
+}
+
+h2{
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tasks{
+  font-size: 25px;
+  line-height: 50px;
+  font-family:sans-serif;
+  font-weight: bolder;
+}
+
+.editorial{
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  background-color: #45ABEA ;
+  border-radius: 15px;
+  color: white;
 }
