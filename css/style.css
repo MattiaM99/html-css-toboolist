@@ -74,12 +74,59 @@ h2{
   font-family:sans-serif;
   font-weight: bolder;
 }
+  /* modelli tasks */
 
-.editorial{
+  .editorial{
   display: inline-block;
   padding: 10px;
   text-align: center;
   background-color: #45ABEA ;
   border-radius: 15px;
   color: white;
+  font-family: sans-serif;
+}
+.Q1-goals{
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  background-color: #9C72E4 ;
+  border-radius: 15px;
+  color: white;
+  font-family: sans-serif;
+}
+.recruiting{
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  background-color: #64C0A9;
+  border-radius: 15px;
+  color: white;
+  font-family: sans-serif;
+}
+.mobile{
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  background-color: #F29E33;
+  border-radius: 15px;
+  color: white;
+  font-family: sans-serif;
+}
+.website{
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  background-color: #D863A1;
+  border-radius: 15px;
+  color: white;
+  font-family: sans-serif;
+}
+.sales{
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  background-color: #B0C926;
+  border-radius: 15px;
+  color: white;
+  font-family: sans-serif;
 }
